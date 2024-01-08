@@ -12,13 +12,6 @@
         </div>
       </div>
       <div class="header__right"></div>
-      <div class="header__right-bis">
-        <ul>
-          <li>A propos</li>
-          <li>Services</li>
-          <li>Projets</li>
-        </ul>
-      </div>
     </div>
     <div class="arrow-down bounce">
       <a href="#theme-btn" class="arrow-down"> </a>

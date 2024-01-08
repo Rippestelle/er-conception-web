@@ -3,7 +3,7 @@
 <template>
   <section>
     <div class="container">
-      <div class="projects">
+<!--       <div class="projects">
         <div class="projects__card">
           <div class="projects__card__top">
             <img src="../public/assets/img/logoer.png" />
@@ -43,13 +43,13 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
-  <p>
+<!--   <p>
     Quick services, Mauranne, projets entreprises?, au cours de mon xp pro nombreux
     projets réalisés avec suivi clients.
-  </p>
+  </p> -->
 </template>
 
 <style lang="scss" scoped>

@@ -34,7 +34,7 @@ main {
   --background-color-primary: #fff;
   --background-color-secondary: #121212;
   --accent-color: #fff;
-  --text-primary-color: #838f9c;
+  --text-primary-color: #121212;
   --title-primary-color: #22d49e;
   --title-secondary-color: #fff;
   --element-size: 4rem;

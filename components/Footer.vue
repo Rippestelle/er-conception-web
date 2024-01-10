@@ -4,7 +4,7 @@
   <section>
     <div class="container">
       <div class="flex">
-        <!--         <div class="logo">
+        <div class="logo">
           <router-link to="/">
             <img
               loading="lazy"
@@ -13,7 +13,7 @@
               alt="Logo Estelle Rippe - Création de sites web"
             />
           </router-link>
-        </div> -->
+        </div>
         <div class="infos">
           <ul class="links">
             <li class="links__item">
@@ -21,7 +21,9 @@
             </li>
 
             <li class="links__item">
-              <router-link to="/"> Création de sites web sur mesure </router-link>
+              <router-link to="/">
+                Création de sites web sur mesure
+              </router-link>
             </li>
 
             <li class="links__item">
@@ -29,7 +31,9 @@
             </li>
 
             <li class="links__item">
-              <router-link to="/"> Conseils en référencement naturel SEO</router-link>
+              <router-link to="/">
+                Conseils en référencement naturel SEO</router-link
+              >
             </li>
           </ul>
 
@@ -66,8 +70,8 @@
 </template>
 
 <style lang="scss" scoped>
-.container {
-  padding: 1em 0 1em 0;
+.logo img {
+  width: 120px;
 }
 
 .infos {
@@ -92,6 +96,7 @@ footer .container {
   align-items: center;
   justify-content: center;
   grid-gap: 0.5em;
+  margin: 1em 0 1em 0;
 
   a {
     text-decoration: none;

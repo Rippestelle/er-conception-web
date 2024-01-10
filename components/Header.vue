@@ -15,7 +15,9 @@
       <div class="header__right"></div>
     </div>
     <div class="arrow-down bounce">
-      <a href="#theme-btn" class="arrow-down"> </a>
+      <a href="#about"
+        ><img src="../public/assets/icons/icons8-double-down-64.png"
+      /></a>
     </div>
   </header>
 </template>
@@ -24,7 +26,7 @@
 .header {
   min-height: 100%;
   height: 100%;
-  height: 100vh;
+  height: 95vh;
   overflow: hidden;
   width: 100%;
 
@@ -76,7 +78,7 @@
     min-height: 100%;
     max-width: 100%;
     height: 100%;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     justify-content: center;
   }
@@ -147,12 +149,16 @@
 }
 
 .arrow-down {
-  color: var(--title-secondary-color);
-  font-size: 4.5vh;
-  background-image: url("../assets/icons/arrow-thin-chevron-bottom-icon.svg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+  display: flex;
+  justify-content: center;
+
+  img {
+    position: absolute;
+    bottom: 50px;
+    right: 50vw;
+  }
 }
+
 .bounce {
   -moz-animation: bounce 3s infinite;
   -webkit-animation: bounce 3s infinite;

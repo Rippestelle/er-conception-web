@@ -54,7 +54,9 @@ export default {
     },
 
     getMediaPreference() {
-      const hasDarkPreference = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      const hasDarkPreference = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+      ).matches;
       if (hasDarkPreference) {
         return "dark-theme";
       } else {
@@ -71,6 +73,10 @@ export default {
   padding-inline-start: 1em;
   padding-inline-end: 2.2em;
   padding-top: 1em;
+  position: fixed;
+  bottom: 20px;
+  right: 0px;
+  z-index: 9999999999;
 }
 
 .switch-checkbox {

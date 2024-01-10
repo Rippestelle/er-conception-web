@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import ThemeButon from "./shared/ThemeButon.vue";
 /*import ContactFormModal from '../shared/ContactFormModal.vue';
 
 const showModal = ref(false);
@@ -30,7 +29,10 @@ onMounted(() => {
   <div id="top">
     <div class="responsive-logo">
       <router-link to="/">
-        <img src="/assets/img/logoer.png" alt="Logo Estelle Rippe - Développement Web" />
+        <img
+          src="/assets/img/logoer.png"
+          alt="Logo Estelle Rippe - Développement Web"
+        />
       </router-link>
     </div>
 
@@ -48,15 +50,27 @@ onMounted(() => {
         </div>
 
         <nav>
-          <router-link class="nav__link" to="/#about" @click="() => onNavigation()">
+          <router-link
+            class="nav__link"
+            to="/#about"
+            @click="() => onNavigation()"
+          >
             A propos
           </router-link>
 
-          <router-link class="nav__link" to="/#services" @click="() => onNavigation()">
+          <router-link
+            class="nav__link"
+            to="/#services"
+            @click="() => onNavigation()"
+          >
             Services
           </router-link>
 
-          <router-link class="nav__link" to="/#projects" @click="() => onNavigation()">
+          <router-link
+            class="nav__link"
+            to="/#projects"
+            @click="() => onNavigation()"
+          >
             Projets
           </router-link>
         </nav>
@@ -69,8 +83,6 @@ onMounted(() => {
           >
             <span class="text">Contact</span>
           </router-link>
-
-          <ThemeButon />
         </div>
       </header>
     </div>

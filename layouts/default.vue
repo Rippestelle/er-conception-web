@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Nav from "../components/Nav.vue";
+import ThemeButon from "../components/shared/ThemeButon.vue";
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import Nav from "../components/Nav.vue";
     )"
   />
   <Nav />
+  <ThemeButon />
 
   <main>
     <slot />

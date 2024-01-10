@@ -24,7 +24,7 @@
     <ul class="services">
       <li class="services__item">
         <img src="../public/assets/icons/wp.png" />
-        <h4>Création de site WordPress</h4>
+        <h3>Création de site WordPress</h3>
         <p>
           WordPress est un outil qui permet d'obtenir des sites clés en mains
           rapidement et facile d'accès.<br />
@@ -34,7 +34,7 @@
       </li>
       <li class="services__item">
         <img src="../public/assets/icons/sur-mesure.png" />
-        <h4>Création de site sur mesure</h4>
+        <h3>Création de site sur mesure</h3>
         <p>
           Création de thèmes et d'extensions WordPress<br />
           & conception de sites avec les technologies Vue.js et Node.js
@@ -42,7 +42,7 @@
       </li>
       <li class="services__item">
         <img src="../public/assets/icons/landing-page.png" />
-        <h4>Mini-sites et landing page</h4>
+        <h3>Mini-sites et landing page</h3>
         <p>
           Bénéficiez d'un suivi personnalisé, avec une mise à jour régulière de
           votre site.
@@ -50,7 +50,7 @@
       </li>
       <li class="services__item">
         <img src="../public/assets/icons/seo1.png" />
-        <h4>Conseils en référencement naturel - SEO</h4>
+        <h3>Conseils en référencement naturel - SEO</h3>
         <p>
           Référencement naturel optimisé et conseils en stratégie de
           référencement. Des pages bien construites pour un
@@ -59,7 +59,7 @@
       </li>
       <li class="services__item">
         <img src="../public/assets/icons/refonte.png" />
-        <h4>Refonte site internet</h4>
+        <h3>Refonte site internet</h3>
         <p>
           Vous avez déjà un site internet et souhaitez l'optimiser ?<br />
           Optenez des conseils pour donner plus de visibilité à votre site.
@@ -67,7 +67,7 @@
       </li>
       <li class="services__item">
         <img src="../public/assets/icons/formation.png" />
-        <h4>Formation WordPress</h4>
+        <h3>Formation WordPress</h3>
         <p>
           Je vous forme au back-office WordPress afin de vous garantir un
           maximum d'autonomie.<br />
@@ -75,7 +75,7 @@
       </li>
       <li class="services__item">
         <img src="../public/assets/icons/responsive.png" />
-        <h4>Responsive design</h4>
+        <h3>Responsive design</h3>
         <p>
           Vous avez déjà un site internet et souhaitez l'optimiser ?<br />
           Optenez des conseils pour donner plus de visibilité à votre site.
@@ -83,7 +83,7 @@
       </li>
       <li class="services__item">
         <img src="../public/assets/icons/tools.png" />
-        <h4>Suivi & Maintenance</h4>
+        <h3>Suivi & Maintenance</h3>
         <p>
           Je vous forme au back-office WordPress afin de vous garantir un
           maximum d'autonomie.<br />

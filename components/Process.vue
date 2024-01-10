@@ -75,8 +75,9 @@ h2 {
   align-items: center;
 
   &__item {
-    width: 50%;
+    width: 30%;
     margin-top: 1em;
+    margin-bottom: 1em;
 
     .left {
       border-bottom-style: double;
@@ -88,12 +89,17 @@ h2 {
       border-bottom-left-radius: 25px;
       font-size: 25px;
     }
+
+    p {
+      margin-top: 2em;
+    }
   }
 
   &__item-right {
     text-align: end;
-    width: 50%;
+    width: 30%;
     margin-top: 1em;
+    margin-bottom: 1em;
 
     .right {
       border-bottom-style: double;
@@ -103,6 +109,10 @@ h2 {
       border-bottom-right-radius: 25px;
       font-size: 25px;
       text-align: end;
+    }
+
+    p {
+      margin-top: 2em;
     }
   }
 }

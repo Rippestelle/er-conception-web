@@ -1,52 +1,65 @@
 <script setup lang="ts"></script>
 
 <template>
-  <section>
-    <div class="container">
-<!--       <div class="projects">
-        <div class="projects__card">
-          <div class="projects__card__top">
-            <img src="../public/assets/img/logoer.png" />
-          </div>
-          <div class="projects__card__bottom">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices
-              sollicitudin sapien, id dictum odio ultricies sed. Vivamus ac sagittis
-              sapien, id rhoncus nisl. Nullam sed elit ipsum. Etiam vitae tortor at metus
-              iaculis venenatis rutrum eu dolor.
-            </p>
-          </div>
+  <section class="container">
+    <h2>Projets</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices
+      sollicitudin sapien, id dictum odio ultricies sed. Vivamus ac sagittis
+      sapien, id rhoncus nisl. Nullam sed elit ipsum. Etiam vitae tortor at
+      metus iaculis venenatis rutrum eu dolor.
+    </p>
+    <div class="projects">
+      <router-link
+        to="https://maufitcoaching.fr/"
+        class="projects__card"
+        target="_blank"
+      >
+        <div class="projects__card__top">
+          <img src="../public/assets/img/maufit-coaching.png" />
         </div>
-        <div class="projects__card">
-          <div class="projects__card__top">
-            <img src="../public/assets/img/logoer.png" />
-          </div>
-          <div class="projects__card__bottom">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices
-              sollicitudin sapien, id dictum odio ultricies sed. Vivamus ac sagittis
-              sapien, id rhoncus nisl. Nullam sed elit ipsum. Etiam vitae tortor at metus
-              iaculis venenatis rutrum eu dolor.
-            </p>
-          </div>
+        <div class="projects__card__bottom">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            ultrices sollicitudin sapien, id dictum odio ultricies sed. Vivamus
+            ac sagittis sapien, id rhoncus nisl. Nullam sed elit ipsum. Etiam
+            vitae tortor at metus iaculis venenatis rutrum eu dolor.
+          </p>
         </div>
-        <div class="projects__card">
-          <div class="projects__card__top">
-            <img src="../public/assets/img/logoer.png" />
-          </div>
-          <div class="projects__card__bottom">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices
-              sollicitudin sapien, id dictum odio ultricies sed. Vivamus ac sagittis
-              sapien, id rhoncus nisl. Nullam sed elit ipsum. Etiam vitae tortor at metus
-              iaculis venenatis rutrum eu dolor.
-            </p>
-          </div>
+      </router-link>
+      <router-link
+        to="https://www.quick-services-angouleme.fr/"
+        class="projects__card"
+        target="_blank"
+      >
+        <div class="projects__card__top">
+          <img src="../public/assets/img/quick-services.png" />
         </div>
-      </div> -->
+        <div class="projects__card__bottom">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            ultrices sollicitudin sapien, id dictum odio ultricies sed. Vivamus
+            ac sagittis sapien, id rhoncus nisl. Nullam sed elit ipsum. Etiam
+            vitae tortor at metus iaculis venenatis rutrum eu dolor.
+          </p>
+        </div>
+      </router-link>
+      <div class="projects__card">
+        <div class="projects__card__top">
+          <img src="../public/assets/img/logoer.png" />
+        </div>
+        <div class="projects__card__bottom">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            ultrices sollicitudin sapien, id dictum odio ultricies sed. Vivamus
+            ac sagittis sapien, id rhoncus nisl. Nullam sed elit ipsum. Etiam
+            vitae tortor at metus iaculis venenatis rutrum eu dolor.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
-<!--   <p>
+  <!--   <p>
     Quick services, Mauranne, projets entreprises?, au cours de mon xp pro nombreux
     projets réalisés avec suivi clients.
   </p> -->
@@ -56,11 +69,32 @@
 .projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 1em;
+  justify-content: space-between;
 
   &__card {
     width: 30%;
+
+    &__top {
+      width: 100%;
+      height: 50%;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+      }
+    }
   }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff !important;
+  background: none;
+  -webkit-text-fill-color: inherit;
 }
 </style>

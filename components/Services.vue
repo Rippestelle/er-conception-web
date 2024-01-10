@@ -67,6 +67,21 @@
 <script lang="ts"></script>
 
 <style lang="scss" scoped>
+h2 {
+  height: 38px;
+  text-align: center;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(
+    0.25turn,
+    rgb(140, 59, 220),
+    rgb(46, 128, 200) 50%,
+    #22d49e
+  );
+  border-image-slice: 1;
+  width: fit-content;
+  font-weight: 600;
+}
+
 .services {
   list-style-type: none;
   width: 100%;
@@ -78,7 +93,15 @@
     .left {
       border-bottom-style: double;
       border-bottom-width: 5px;
-      border-bottom-color: var(--title-primary-color);
+      border-bottom: 2px solid transparent;
+      border-image: linear-gradient(
+        0.25turn,
+        rgb(140, 59, 220),
+        rgb(46, 128, 200) 50%,
+        #22d49e
+      );
+      border-image-slice: 1;
+
       padding-left: 0.5em;
       width: fit-content;
       border-bottom-left-radius: 25px;

@@ -7,7 +7,8 @@
         <div class="header-main fade-in">
           <h1 class="text-container">
             <span class="primary-txt">Création de site</span> internet,<br />
-            &amp; conseils en stratégie <span class="primary-txt">digitale</span>.<br />
+            &amp; conseils en stratégie
+            <span class="primary-txt">digitale</span>.<br />
           </h1>
         </div>
       </div>
@@ -83,14 +84,22 @@
 
 .text-container {
   display: block;
-  font-size: 3.8vh;
+  font-size: 4.8vh;
   color: var(--text-primary-color);
   font-family: "Manrope", sans-serif;
 }
 
 .primary-txt {
-  color: var(--title-primary-color);
   font-family: "Manrope", sans-serif;
+  background: linear-gradient(
+    0.25turn,
+    rgb(140, 59, 220),
+    rgb(46, 128, 200) 50%,
+    #22d49e
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
 }
 
 .header-main {

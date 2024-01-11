@@ -70,6 +70,17 @@
 </template>
 
 <style lang="scss" scoped>
+@media screen and (max-width: 840px) {
+  .flex {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    ul {
+      width: 100%;
+    }
+  }
+}
+
 .logo img {
   width: 120px;
 }
@@ -97,6 +108,10 @@ footer .container {
   justify-content: center;
   grid-gap: 0.5em;
   margin: 1em 0 1em 0;
+
+  @media screen and (max-width: 840px) {
+    flex-wrap: wrap;
+  }
 
   a {
     text-decoration: none;

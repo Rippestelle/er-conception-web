@@ -45,9 +45,6 @@
   font-weight: 550;
   margin-bottom: 25px;
 }
-.about {
-  width: 100%;
-}
 
 .about a {
   color: #22d49e;

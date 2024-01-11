@@ -98,12 +98,25 @@
 <style lang="scss" scoped>
 h2 {
   padding-top: 80px;
+
+  @media screen and (max-width: 840px) {
+    padding-top: 40px;
+  }
 }
 .services {
   list-style-type: none;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+
+  @media screen and (max-width: 1200px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (max-width: 840px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
   &__item {
     width: 100%;

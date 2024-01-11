@@ -49,13 +49,6 @@
           Optenez des conseils pour donner plus de visibilité à votre site.
         </p>
       </li>
-      <li class="process__item-right">
-        <span class="right purple">Optimisation et webastering</span>
-        <p>
-          Je vous forme au back-office WordPress afin de vous garantir un
-          maximum d'autonomie.<br />
-        </p>
-      </li>
     </ul>
   </section>
 </template>
@@ -65,6 +58,10 @@
 <style lang="scss" scoped>
 h2 {
   padding-top: 80px;
+
+  @media screen and (max-width: 840px) {
+    padding-top: 40px;
+  }
 }
 .process {
   list-style-type: none;
@@ -78,6 +75,10 @@ h2 {
     width: 30%;
     margin-top: 1em;
     margin-bottom: 1em;
+
+    @media screen and (max-width: 1100px) {
+      width: 100%;
+    }
 
     .left {
       border-bottom-style: double;
@@ -100,6 +101,10 @@ h2 {
     width: 30%;
     margin-top: 1em;
     margin-bottom: 1em;
+
+    @media screen and (max-width: 1100px) {
+      width: 100%;
+    }
 
     .right {
       border-bottom-style: double;

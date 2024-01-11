@@ -132,6 +132,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 3em 0 3.5em;
+  width: 100%;
 
   nav {
     display: flex;

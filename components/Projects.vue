@@ -44,19 +44,6 @@
           </p>
         </div>
       </router-link>
-      <div class="projects__card">
-        <div class="projects__card__top">
-          <img src="../public/assets/img/logoer.png" />
-        </div>
-        <div class="projects__card__bottom">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            ultrices sollicitudin sapien, id dictum odio ultricies sed. Vivamus
-            ac sagittis sapien, id rhoncus nisl. Nullam sed elit ipsum. Etiam
-            vitae tortor at metus iaculis venenatis rutrum eu dolor.
-          </p>
-        </div>
-      </div>
     </div>
   </section>
   <!--   <p>
@@ -66,14 +53,34 @@
 </template>
 
 <style lang="scss" scoped>
+.container p {
+  margin-bottom: 25px;
+}
+
 .projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+
+  @media screen and (max-width: 840px) {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__card {
+      &__top {
+        width: 100%;
+        height: 250px;
+
+        img {
+          width: 100%;
+          object-fit: cover;
+          height: 100%;
+        }
+      }
+    }
+  }
 
   &__card {
-    width: 30%;
-
     &__top {
       width: 100%;
       height: 50%;

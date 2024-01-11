@@ -31,11 +31,14 @@
   width: 100%;
   display: flex;
 
-  @media screen and (max-width: 1100px) {
-    .container {
+  .container {
+    width: 100%;
+
+    @media screen and (max-width: 1100px) {
       display: flex;
       align-items: center;
       justify-content: center;
+      width: auto;
     }
   }
 

@@ -10,8 +10,8 @@
       metus iaculis venenatis rutrum eu dolor.
     </p>
     <div class="projects">
-      <router-link
-        to="https://maufitcoaching.fr/"
+      <a
+        href="https://maufitcoaching.fr/"
         class="projects__card"
         target="_blank"
       >
@@ -26,9 +26,9 @@
             vitae tortor at metus iaculis venenatis rutrum eu dolor.
           </p>
         </div>
-      </router-link>
-      <router-link
-        to="https://www.quick-services-angouleme.fr/"
+      </a>
+      <a
+        href="https://www.quick-services-angouleme.fr/"
         class="projects__card"
         target="_blank"
       >
@@ -43,7 +43,7 @@
             vitae tortor at metus iaculis venenatis rutrum eu dolor.
           </p>
         </div>
-      </router-link>
+      </a>
     </div>
   </section>
   <!--   <p>

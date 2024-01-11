@@ -29,6 +29,33 @@
   height: 95vh;
   overflow: hidden;
   width: 100%;
+  display: flex;
+
+  @media screen and (max-width: 1100px) {
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 840px) {
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    .container {
+      flex-direction: column;
+
+      .header__left {
+        width: 100%;
+      }
+
+      .header__right {
+        height: 250px;
+        width: 100%;
+      }
+    }
+  }
 
   &__left {
     width: 50%;
@@ -45,7 +72,7 @@
     justify-content: center;
     overflow: hidden;
 
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: 1200px) {
       height: 50%;
     }
 
@@ -156,10 +183,12 @@
   display: flex;
   justify-content: center;
 
-  img {
-    position: absolute;
-    bottom: 50px;
-    right: 50vw;
+  @media screen and (min-width: 840px) {
+    img {
+      position: absolute;
+      bottom: 50px;
+      right: 50vw;
+    }
   }
 }
 

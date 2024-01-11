@@ -45,6 +45,10 @@
     justify-content: center;
     overflow: hidden;
 
+    @media screen and (max-width: 1100px) {
+      height: 50%;
+    }
+
     &:hover {
       animation: rotation 2s infinite linear;
     }

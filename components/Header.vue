@@ -143,7 +143,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 1em;
 }
 
 .first-part {

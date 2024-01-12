@@ -32,6 +32,10 @@
   outline: 0;
 }
 
+.button-64:active > .button-64 {
+  display: flex;
+}
+
 .button-64 span {
   background-color: var(--background-color-primary);
   padding: 7px 15px;

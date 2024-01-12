@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { ref, onMounted } from "vue";
+import MenuIcon from "../components/shared/MenuIcon.vue";
 /*import ContactFormModal from '../shared/ContactFormModal.vue';
 
 const showModal = ref(false);
@@ -43,46 +45,49 @@ onMounted(() => {
             <img
               src="/assets/img/logoer.png"
               alt="Logo Estelle Rippe - Développement Web"
+              class="desktop-logo"
             />
           </router-link>
 
           <MenuIcon class="responsive-menu" @click="toggleNavbar" />
         </div>
 
-        <nav>
-          <router-link
-            class="nav__link"
-            to="/#about"
-            @click="() => onNavigation()"
-          >
-            A propos
-          </router-link>
+        <div class="nav-container">
+          <nav>
+            <router-link
+              class="nav__link"
+              to="/#about"
+              @click="() => onNavigation()"
+            >
+              A propos
+            </router-link>
 
-          <router-link
-            class="nav__link"
-            to="/#services"
-            @click="() => onNavigation()"
-          >
-            Services
-          </router-link>
+            <router-link
+              class="nav__link"
+              to="/#services"
+              @click="() => onNavigation()"
+            >
+              Services
+            </router-link>
 
-          <router-link
-            class="nav__link"
-            to="/#projects"
-            @click="() => onNavigation()"
-          >
-            Projets
-          </router-link>
-        </nav>
+            <router-link
+              class="nav__link"
+              to="/#projects"
+              @click="() => onNavigation()"
+            >
+              Projets
+            </router-link>
+          </nav>
 
-        <div class="flex">
-          <router-link
-            class="nav__link button-64"
-            to="/#contact"
-            @click="() => onNavigation()"
-          >
-            <span class="text">Contact</span>
-          </router-link>
+          <div class="flex">
+            <router-link
+              class="nav__link button-64"
+              to="/#contact"
+              @click="() => onNavigation()"
+            >
+              <span class="text">Contact</span>
+            </router-link>
+          </div>
         </div>
       </header>
     </div>
@@ -99,20 +104,27 @@ onMounted(() => {
 .nav__heading {
   display: flex;
   align-items: center;
-
-  img {
-    @media screen and (max-width: 1200px) {
-      width: 60px;
-    }
-    @media screen and (min-width: 1200px) {
-      width: 70px;
-    }
-  }
 }
 
 .responsive-menu {
   display: none;
   cursor: pointer;
+}
+
+.desktop-logo {
+  width: 70px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: -webkit-fill-available;
+
+  @media screen and (max-width: 1175px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .navbar {
@@ -125,6 +137,11 @@ onMounted(() => {
   backdrop-filter: blur(5px) !important;
   display: flex;
   justify-content: center;
+
+  @media screen and (max-width: 1175px) {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px) !important;
+  }
 }
 
 header {
@@ -191,20 +208,29 @@ nav a:nth-child(4) {
 
 .responsive-logo {
   display: none;
+
+  @media screen and (max-width: 1175px) {
+    img {
+      width: 45px !important;
+      height: auto;
+    }
+
+    nav {
+      gap: 2em !important;
+    }
+  }
 }
 
 @media screen and (max-width: 1175px) {
-  img {
-    width: 60px !important;
-    height: auto;
+  .desktop-logo {
+    display: none;
   }
 
   nav {
-    gap: 2em !important;
+    margin-bottom: 1.5em;
+    padding: 1em;
   }
-}
 
-@media screen and (max-width: 1175px) {
   .responsive-logo {
     display: block;
     position: absolute;
@@ -221,6 +247,15 @@ nav a:nth-child(4) {
 
   header {
     padding: 1em;
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(
+      144deg,
+      rgb(140, 59, 220),
+      rgb(46, 128, 200) 50%,
+      #22d49e
+    );
+    border-image-slice: 1;
+    width: 100%;
   }
 
   nav {
@@ -247,7 +282,9 @@ nav a:nth-child(4) {
     width: 100%;
 
     img {
-      display: none;
+      position: absolute;
+      right: 10px;
+      top: 8px;
     }
   }
 
@@ -272,7 +309,7 @@ nav a:nth-child(4) {
     }
 
     &.responsive a {
-      display: block;
+      display: flex;
     }
   }
 }
@@ -296,9 +333,13 @@ nav a:nth-child(4) {
   ul li:nth-child(6) {
     display: none;
   }
+
+  .button-64 {
+    margin-left: 1em !important;
+  }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 11775px) {
   nav a {
     margin-right: 16px !important;
   }

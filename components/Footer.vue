@@ -39,18 +39,18 @@
 
           <ul class="links">
             <li class="links__item">
-              <router-link to="/"> Projets</router-link>
+              <router-link to="/"> Services</router-link>
             </li>
             <li class="links__item">
               <router-link to="/"> Contact</router-link>
             </li>
 
             <li class="links__item">
-              <router-link to="/">Mentions légales</router-link>
+              <router-link to="/">Projets</router-link>
             </li>
 
             <li class="links__item">
-              <router-link to="/"> Politique de confidentialité</router-link>
+              <router-link to="/">A propos</router-link>
             </li>
           </ul>
         </div>

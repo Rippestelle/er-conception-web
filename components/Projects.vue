@@ -4,8 +4,9 @@
   <section class="container">
     <h2>Projets</h2>
     <p>
-      En dehors de nombreux projets réalisés en entreprise, voici mes premiers
-      projets réalisés en freelance.
+      En dehors de nombreux projets réalisés en entreprise (sites vitrines,
+      sites institutionnels, applications métier ou encore landing-page), voici
+      mes premiers projets réalisés en freelance.
     </p>
     <div class="projects">
       <a

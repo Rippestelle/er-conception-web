@@ -4,10 +4,8 @@
   <section class="container">
     <h2>Projets</h2>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices
-      sollicitudin sapien, id dictum odio ultricies sed. Vivamus ac sagittis
-      sapien, id rhoncus nisl. Nullam sed elit ipsum. Etiam vitae tortor at
-      metus iaculis venenatis rutrum eu dolor.
+      En dehors de nombreux projets réalisés en entreprise, voici mes premiers
+      projets réalisés en freelance.
     </p>
     <div class="projects">
       <a
@@ -20,10 +18,10 @@
         </div>
         <div class="projects__card__bottom">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            ultrices sollicitudin sapien, id dictum odio ultricies sed. Vivamus
-            ac sagittis sapien, id rhoncus nisl. Nullam sed elit ipsum. Etiam
-            vitae tortor at metus iaculis venenatis rutrum eu dolor.
+            Mau-Fit Coaching est une micro-entreprise de coaching à domicile. La
+            cliente m'a contacté pour une création de site WordPress,
+            Référencement local et début prometteur pour un bon positionnement
+            sur les moteurs de recherches.
           </p>
         </div>
       </a>
@@ -37,19 +35,15 @@
         </div>
         <div class="projects__card__bottom">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            ultrices sollicitudin sapien, id dictum odio ultricies sed. Vivamus
-            ac sagittis sapien, id rhoncus nisl. Nullam sed elit ipsum. Etiam
-            vitae tortor at metus iaculis venenatis rutrum eu dolor.
+            Le client souhaitait refaire le site de sa Cordonnerie - Serrurerie,
+            mettre en valeurs certains produits et optimiser son référencement.
+            Amélioration du contenu et du référencement, modernisation du
+            design.
           </p>
         </div>
       </a>
     </div>
   </section>
-  <!--   <p>
-    Quick services, Mauranne, projets entreprises?, au cours de mon xp pro nombreux
-    projets réalisés avec suivi clients.
-  </p> -->
 </template>
 
 <style lang="scss" scoped>

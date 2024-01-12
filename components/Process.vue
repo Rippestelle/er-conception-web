@@ -14,39 +14,43 @@
       <li class="process__item">
         <span class="left green">1. Conception</span>
         <p>
-          WordPress est un outil qui permet d'obtenir des sites clés en mains
-          rapidement et facile d'accès.<br />
-          Que ce soit avec un thème existant ou avec un thème sur mesure,
-          obtenez un site clé en main facile d'accès.
+          Nous validons ensemble les différentes étapes et échéances, le design,
+          l'arborescence<br />
+          et les fonctionnalités dans un cahier des charges.<br />
+          Je conçois les divers documents nécessaires à la conception de votre
+          site/application avant de commencer l'intégration.
         </p>
       </li>
       <li class="process__item-right">
         <span class="right blue">2. Développement</span>
         <p>
-          Création de thèmes et d'extensions WordPress<br />
-          & conception de sites avec les technologies Vue.js et Node.js
+          L'intégration se fait étape par étape avec un suivi sur mesure tout au
+          long du développement de votre site.
         </p>
       </li>
       <li class="process__item">
         <span class="left purple">3. Mise en ligne</span>
-        <p>
-          Bénéficiez d'un suivi personnalisé, avec une mise à jour régulière de
-          votre site.
-        </p>
+        <p>Une fois votre site terminé, nous procédons à la mise en ligne</p>
       </li>
       <li class="process__item-right">
         <span class="right green">4. Formation</span>
         <p>
-          Référencement naturel optimisé et conseils en stratégie de
-          référencement. Des pages bien construites pour un
-          référencementoptimal.
+          Avant ou après la mise en ligne de votre site, je vous forme à l'outil
+          afin que vous puissiez gérer le contenu de votre site en toute
+          autonomie. Selon le niveau d'autonomie souhaité, je propose des
+          formations WordPress poussées ainsi que des formations SEO pour
+          continuer d'optimiser votre référencement après la mise en ligne. Ces
+          formations peuvent se faire en présentiel ou en distanciel.
         </p>
       </li>
       <li class="process__item">
         <span class="left blue">5. Suivi & Maintenance</span>
         <p>
-          Vous avez déjà un site internet et souhaitez l'optimiser ?<br />
-          Optenez des conseils pour donner plus de visibilité à votre site.
+          Bénéficiez d'un suivi personnalisé en fonction de vos besoins et de
+          vos objectifs.<br />
+          Possibilité de mettre en place des forfaits Newsletter ou
+          d'optimisation continue du contenu.<br />
+          J'effectue les mises à jour et la maintenance de votre site.
         </p>
       </li>
     </ul>
@@ -72,7 +76,7 @@ h2 {
   align-items: center;
 
   &__item {
-    width: 30%;
+    width: 50%;
     margin-top: 1em;
     margin-bottom: 1em;
 

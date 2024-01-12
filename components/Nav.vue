@@ -117,7 +117,7 @@ onMounted(() => {
 
 .nav-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
   width: -webkit-fill-available;
 
@@ -247,7 +247,7 @@ nav a:nth-child(4) {
 
   header {
     padding: 1em;
-    border-bottom: 3px solid transparent;
+    border-bottom: 1px solid transparent;
     border-image: linear-gradient(
       144deg,
       rgb(140, 59, 220),
@@ -284,7 +284,8 @@ nav a:nth-child(4) {
     img {
       position: absolute;
       right: 10px;
-      top: 8px;
+      top: 12px;
+      width: 35px;
     }
   }
 

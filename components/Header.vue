@@ -31,32 +31,37 @@
   width: 100%;
   display: flex;
 
+  @media screen and (max-width: 1100px) {
+    height: 90vh;
+  }
+
   .container {
     width: 100%;
 
     @media screen and (max-width: 1100px) {
       display: flex;
       align-items: center;
-      justify-content: center;
-      width: auto;
     }
   }
 
   @media screen and (max-width: 840px) {
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
 
+    .header__left {
+      width: 100%;
+    }
+
+    .header__right {
+      height: 250px;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 635px) {
     .container {
       flex-direction: column;
-
-      .header__left {
-        width: 100%;
-      }
-
-      .header__right {
-        height: 250px;
-        width: 100%;
-      }
+      width: auto;
     }
   }
 
@@ -77,6 +82,7 @@
 
     @media screen and (max-width: 1200px) {
       height: 50%;
+      background-size: contain;
     }
 
     &:hover {

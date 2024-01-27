@@ -3,4 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   pages: true,
   css: ['~/assets/scss/app.scss'],
+  build: {
+    transpile: ['gsap'],
+  },
 })

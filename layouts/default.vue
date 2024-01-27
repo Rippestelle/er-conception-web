@@ -1,6 +1,11 @@
 <script setup lang="ts">
 import Nav from "../components/Nav.vue";
 import ThemeButon from "../components/shared/ThemeButon.vue";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+
+gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 </script>
 
 <template>

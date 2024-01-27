@@ -13,10 +13,11 @@ import ContactForm from "./ContactForm.vue";
     <p>Ou via le formulaire de contact suivant :</p>
     <div class="row">
       <ContactForm />
-      <!--       <div class="parallax">
-        <img src="../assets/icons/34.svg" />
-        <img src="../assets/icons/35.svg" />
-      </div> -->
+      <div class="parallax">
+        <img class="parallax__one" src="../public/assets/icons/38.svg" />
+        <img class="parallax__two" src="../public/assets/icons/37.svg" />
+        <img class="parallax__three" src="../public/assets/icons/36.svg" />
+      </div>
     </div>
   </section>
 </template>
@@ -32,9 +33,29 @@ section {
 
     .parallax {
       width: 50%;
+      position: relative;
 
       img {
         width: 150px;
+        position: absolute;
+      }
+
+      &__one {
+        left: 0;
+        bottom: 0;
+        transform: rotate(90deg);
+      }
+
+      &__two {
+        left: 20px;
+        bottom: 20px;
+        transform: rotate(90deg);
+      }
+
+      &__three {
+        left: 40px;
+        bottom: 40px;
+        transform: rotate(90deg);
       }
     }
   }

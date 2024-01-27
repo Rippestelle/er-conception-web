@@ -46,21 +46,21 @@
 
   @media screen and (max-width: 840px) {
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
 
     .header__left {
       width: 100%;
     }
 
     .header__right {
-      height: 250px;
+      height: 150px;
       width: 100%;
     }
   }
 
   @media screen and (max-width: 635px) {
     .container {
-      flex-direction: column;
+      flex-direction: column-reverse;
       width: auto;
     }
   }
@@ -74,8 +74,7 @@
 
   &__right {
     width: 50%;
-    background: url("../assets/bg.png") no-repeat center center;
-    background-size: cover;
+    background: url("../assets/img/header_logo.svg") no-repeat center center;
     display: flex;
     justify-content: center;
     overflow: hidden;
@@ -129,13 +128,17 @@
   font-size: 4.8vh;
   color: var(--text-primary-color);
   font-family: "Manrope", sans-serif;
+
+  @media screen and (max-width: 840px) {
+    text-align: center;
+  }
 }
 
 .primary-txt {
   font-family: "Manrope", sans-serif;
   background: linear-gradient(
     0.25turn,
-    rgb(140, 59, 220),
+    rgb(88, 44, 145),
     rgb(46, 128, 200) 50%,
     #22d49e
   );

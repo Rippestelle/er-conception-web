@@ -8,14 +8,14 @@
           <router-link to="/">
             <img
               loading="lazy"
-              src="/assets/img/logoer.png"
+              src="/assets/img/logo_bandes.svg"
               class="w-full"
               alt="Logo Estelle Rippe - Création de sites web"
             />
           </router-link>
         </div>
         <div class="infos">
-          <ul class="links">
+          <!--           <ul class="links">
             <li class="links__item">
               <router-link to="/"> Conseils en stratégie digitale </router-link>
             </li>
@@ -36,21 +36,21 @@
               >
             </li>
           </ul>
-
+ -->
           <ul class="links">
             <li class="links__item">
-              <router-link to="/"> Services</router-link>
+              <router-link to="#services"> Services</router-link>
             </li>
             <li class="links__item">
-              <router-link to="/"> Contact</router-link>
-            </li>
-
-            <li class="links__item">
-              <router-link to="/">Projets</router-link>
+              <router-link to="#contact"> Contact</router-link>
             </li>
 
             <li class="links__item">
-              <router-link to="/">A propos</router-link>
+              <router-link to="#projects">Projets</router-link>
+            </li>
+
+            <li class="links__item">
+              <router-link to="#about">A propos</router-link>
             </li>
           </ul>
         </div>

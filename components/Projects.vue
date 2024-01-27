@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <section class="container">
+  <section class="container" id="projects">
     <h2>Projets</h2>
     <p>
       En dehors de nombreux projets réalisés en entreprise (sites vitrines,

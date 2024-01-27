@@ -135,6 +135,6 @@ h2 {
 }
 
 .purple {
-  border-bottom-color: rgb(140, 59, 220);
+  border-bottom-color: rgb(88, 44, 145);
 }
 </style>

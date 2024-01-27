@@ -2,13 +2,14 @@
   <div class="container about" id="about">
     <h2>A propos</h2>
     <h3>Bonjour, je suis Estelle, développeuse Web.</h3>
-    <p>Je vous accompagne dans votre statégie digitale</p>
+    <p>Je vous accompagne dans votre statégie digitale.</p>
 
     <p>
       Titulaire d'un diplôme en Conception d'applications et sites web (RNCP
-      VI), je vous accompagne dans la création ou la refonte de votre site en
-      adoptant les bonnes pratiques et les normes d'accessibilité web.
+      VI), je conçois des sites web clefs en mains et sur mesure en adoptant les
+      bonnes pratiques et les normes d'accessibilité web.
     </p>
+    <p>Je vous forme</p>
     <p>
       Issue de formation Littéraire, je mets à profit mes compétences acquises
       dans la rédaction et l'optimisation de votre contenu.

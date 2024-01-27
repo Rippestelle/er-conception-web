@@ -6,7 +6,7 @@ defineEmits<{
 
 <template>
   <img
-    src="../../public/assets/icons/icons8-menu-48.png"
+    src="../../public/assets/icons/hamburger-menu-svgrepo-com.svg"
     @click="$emit('click')"
   />
   <!--   <svg

@@ -32,7 +32,7 @@ onMounted(() => {
     <div class="responsive-logo">
       <router-link to="/">
         <img
-          src="/assets/img/logoer.png"
+          src="/assets/img/logo_bandes.svg"
           alt="Logo Estelle Rippe - Développement Web"
         />
       </router-link>
@@ -43,7 +43,7 @@ onMounted(() => {
         <div class="nav__heading">
           <router-link to="/">
             <img
-              src="/assets/img/logoer.png"
+              src="/assets/img/logo_bandes.svg"
               alt="Logo Estelle Rippe - Développement Web"
               class="desktop-logo"
             />
@@ -112,7 +112,7 @@ onMounted(() => {
 }
 
 .desktop-logo {
-  width: 70px;
+  width: 60px;
 }
 
 .nav-container {
@@ -250,7 +250,7 @@ nav a:nth-child(4) {
     border-bottom: 1px solid transparent;
     border-image: linear-gradient(
       144deg,
-      rgb(140, 59, 220),
+      rgb(88, 44, 145),
       rgb(46, 128, 200) 50%,
       #22d49e
     );

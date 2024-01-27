@@ -3,28 +3,23 @@
     <h2>A propos</h2>
     <h3>Bonjour, je suis Estelle, développeuse Web.</h3>
     <p>Je vous accompagne dans votre statégie digitale.</p>
-
     <p>
       Titulaire d'un diplôme en Conception d'applications et sites web (RNCP
-      VI), je conçois des sites web clefs en mains et sur mesure en adoptant les
+      VI), je conçois des sites clés en mains et sur mesure en adoptant les
       bonnes pratiques et les normes d'accessibilité web.
     </p>
-    <p>Je vous forme</p>
     <p>
       Issue de formation Littéraire, je mets à profit mes compétences acquises
-      dans la rédaction et l'optimisation de votre contenu.
+      dans la rédaction et l'optimisation de votre contenu afin d'obtenir un bon
+      référencement naturel (SEO).
     </p>
 
-    <p>
-      Je me suis reconvertie dans la création de site web en 2020 et propose
+    <!--     <p>
+      Reconvertie dans la création de sites web en 2020 et propose
       depuis fin 2023 mes services en freelance. Mes diverses expériences au
       contact de la clientèle et dans le dévelopement web me permette de vous
       proposer une expertise complète et un accompagnement sur mesure.
-    </p>
-
-    <!--     <p>Début d'activité</p>
-    <p>XP</p>
-    <p>Services</p> -->
+    </p> -->
   </div>
 </template>
 

@@ -4,6 +4,7 @@ import About from "../components/About.vue";
 import Projects from "../components/Projects.vue";
 import Services from "../components/Services.vue";
 import Process from "../components/Process.vue";
+import Contact from "../components/Contact.vue";
 import Footer from "../components/Footer.vue";
 </script>
 
@@ -13,6 +14,7 @@ import Footer from "../components/Footer.vue";
   <Services />
   <Process />
   <Projects />
+  <Contact />
 
   <Footer />
 </template>

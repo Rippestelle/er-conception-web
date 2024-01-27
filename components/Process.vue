@@ -24,13 +24,18 @@
       <li class="process__item-right">
         <span class="right blue">2. Développement</span>
         <p>
-          L'intégration se fait étape par étape avec un suivi sur mesure tout au
-          long du développement de votre site.
+          L'intégration se fait étape par étape, avec des points fixés en
+          fonction de votre emploi du temps afin de valider l'avancement du
+          projet.
         </p>
       </li>
       <li class="process__item">
-        <span class="left purple">3. Mise en ligne</span>
-        <p>Une fois votre site terminé, nous procédons à la mise en ligne</p>
+        <span class="left purple">3. Livraison</span>
+        <p>
+          Votre site est mis en ligne et le référencement est suivi de près.
+          Tous les moyens sont mis en oeuvre pour obtenir le maximum de
+          visibilité en ligne.
+        </p>
       </li>
       <li class="process__item-right">
         <span class="right green">4. Formation</span>

@@ -103,3 +103,13 @@ a:hover:not(.button-64) {
   -webkit-text-fill-color: transparent;
   max-width: max-content;
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}

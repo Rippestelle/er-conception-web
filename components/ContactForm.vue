@@ -49,38 +49,22 @@
 </template>
 
 <script lang="ts">
-/* export default {
-  name: "QAForm",
-  methods: {
-    updatePanelist(ev) {
-      this.currentPanelist = ev.target.value;
-    },
-  },
-  data() {
-    return {
-      panelists: ["Evan You", "Chris Fritz"],
-      currentPanelist: "Evan You",
-    };
-  },
-}; */
-onMounted(() => {
-  const handleSubmit = (event) => {
-    event.preventDefault();
+const handleSubmit = (event) => {
+  event.preventDefault();
 
-    const myForm = event.target;
-    const formData = new FormData(myForm);
+  const myForm = event.target;
+  const formData = new FormData(myForm);
 
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(formData).toString(),
-    })
-      .then(() => console.log("Form successfully submitted"))
-      .catch((error) => alert(error));
-  };
+  fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(formData).toString(),
+  })
+    .then(() => console.log("Form successfully submitted"))
+    .catch((error) => alert(error));
+};
 
-  document.querySelector("form").addEventListener("submit", handleSubmit);
-});
+document.querySelector("form").addEventListener("submit", handleSubmit);
 </script>
 
 <style lang="scss" scoped>

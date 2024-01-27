@@ -13,10 +13,10 @@ import ContactForm from "./ContactForm.vue";
     <p>Ou via le formulaire de contact suivant :</p>
     <div class="row">
       <ContactForm />
-      <div class="parallax">
-        <img src="../../assets/icons/34.svg" />
-        <img src="../../assets/icons/35.svg" />
-      </div>
+      <!--       <div class="parallax">
+        <img src="../assets/icons/34.svg" />
+        <img src="../assets/icons/35.svg" />
+      </div> -->
     </div>
   </section>
 </template>

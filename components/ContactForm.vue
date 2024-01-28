@@ -56,6 +56,10 @@ form {
   flex-direction: column;
   width: 50%;
 
+  @media screen and (max-width: 840px) {
+    width: 100%;
+  }
+
   input,
   textarea {
     width: 80%;
@@ -74,9 +78,19 @@ form {
     color: var(--text-primary-color);
   }
 
+  ::placeholder {
+    color: var(--text-primary-color);
+    font-size: 18px;
+    font-family: "Dosis", sans-serif;
+  }
+
   textarea:focus,
   input:focus {
     outline: none;
+  }
+
+  textarea {
+    height: 250px;
   }
 
   button {

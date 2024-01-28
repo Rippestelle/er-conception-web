@@ -1,55 +1,47 @@
 <template>
-  <section class="container" id="contact">
-    <h2>Me contacter</h2>
-    <p>
-      Vous souhaitez vous lancer dans la création ou l'optimisation de votre
-      site internet ? Vous avez besoin de plus d'informations ou souhaitez
-      obtenir un devis?
-    </p>
-    <p>
-      Contactez moi par
-      <a href="mailto:estelle.rippe.pro@gmail.com" class="link">mail</a> ou
-      téléphone par au 06 76 26 63 24
-    </p>
-    <p>Ou via le formulaire de contact suivant :</p>
-    <div class="row">
-      <ContactForm />
-      <div class="parallax" id="parallax-effect">
+  <section class="container headeralt">
+    <div class="row" id="animation">
+      <div class="animation">
         <img
-          class="parallax__one"
+          class="animation__one animation-img"
           data-parallax="30"
           speed="0.2"
-          src="../public/assets/icons/37.svg"
+          src="../../public/assets/icons/38.svg"
         />
         <img
-          class="parallax__two"
+          class="animation__two animation-img"
           data-parallax="60"
           speed="0.5"
-          src="../public/assets/icons/36.svg"
+          src="../../public/assets/icons/40.svg"
         />
         <img
-          class="parallax__three"
+          class="animation__three animation-img"
           data-parallax="120"
           speed="0.9"
-          src="../public/assets/icons/38.svg"
+          src="../../public/assets/icons/42.svg"
         />
+      </div>
+      <div class="title">
+        <h1>Mentions légales</h1>
+      </div>
+      <div class="animation">
         <img
-          class="parallax__four"
+          class="animation__four"
           data-parallax="30"
           speed="0.2"
-          src="../public/assets/icons/36.svg"
+          src="../../public/assets/icons/36.svg"
         />
         <img
-          class="parallax__five"
+          class="animation__five"
           data-parallax="60"
           speed="0.5"
-          src="../public/assets/icons/38.svg"
+          src="../../public/assets/icons/42.svg"
         />
         <img
-          class="parallax__six"
+          class="animation__six"
           data-parallax="120"
           speed="0.9"
-          src="../public/assets/icons/37.svg"
+          src="../../public/assets/icons/41.svg"
         />
       </div>
     </div>
@@ -57,12 +49,11 @@
 </template>
 
 <script setup lang="js">
-import ContactForm from "./ContactForm.vue";
 import gsap from "gsap";
 
 onMounted(() => {
   // Get the container's bounding rectangle
-  let container = document.querySelector("#parallax-effect");
+  let container = document.querySelector("#animation");
   let rect = container.getBoundingClientRect();
 
   // Initialize mouse object with initial values
@@ -117,63 +108,77 @@ onMounted(() => {
 </script>
 
 <style lang="scss" scoped>
-section {
-  margin-bottom: 100px;
+.headeralt {
+  height: 300px;
 
+  h1 {
+    font-family: "Manrope", sans-serif;
+    background: linear-gradient(
+      0.25turn,
+      rgb(88, 44, 145),
+      rgb(46, 128, 200) 50%,
+      #22d49e
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 30px;
+  }
   .row {
     justify-content: space-between;
+    align-items: center;
+    height: 100%;
 
-    .parallax {
-      width: 50%;
+    .title {
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .animation {
+      width: 30%;
+      height: 100%;
       position: relative;
-
-      @media screen and (max-width: 840px) {
-        display: none;
-      }
 
       img {
         position: absolute;
       }
 
       &__one {
-        left: 15%;
-        bottom: 15%;
-        transform: rotate(90deg);
-        width: 150px;
+        right: 0px;
+        top: 0;
+        width: 200px;
       }
 
       &__two {
-        left: 15%;
-        bottom: 15%;
-        transform: rotate(90deg);
-        width: 125px;
+        right: 70px;
+        top: 0px;
+        width: 200px;
       }
 
       &__three {
-        left: 15%;
-        bottom: 15%;
-        width: 100px;
-        transform: rotate(90deg);
+        right: 110px;
+        top: 25px;
+        width: 150px;
       }
 
       &__four {
-        right: 15%;
-        top: 0px;
-        transform: rotate(-90deg);
-        width: 100px;
+        left: 0px;
+        bottom: 0px;
+        width: 200px;
+        transform: rotate(180deg);
       }
 
       &__five {
-        right: 15%;
-        top: 5px;
-        transform: rotate(-90deg);
-        width: 125px;
+        left: 70px;
+        bottom: 0px;
+        width: 200px;
       }
 
       &__six {
-        right: 15%;
-        top: 10px;
-        transform: rotate(-90deg);
+        left: 110px;
+        bottom: 25px;
         width: 150px;
       }
     }

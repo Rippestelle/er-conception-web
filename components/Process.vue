@@ -55,7 +55,8 @@
           vos objectifs.<br />
           Possibilité de mettre en place des forfaits Newsletter ou
           d'optimisation continue du contenu.<br />
-          J'effectue les mises à jour et la maintenance de votre site.
+          J'effectue les mises à jour et les sauvegardes régulières de votre
+          site.
         </p>
       </li>
     </ul>

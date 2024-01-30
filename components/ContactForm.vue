@@ -76,6 +76,10 @@ form {
     border-image-slice: 1;
     font-size: 18px;
     color: var(--text-primary-color);
+
+    @media screen and (max-width: 840px) {
+      width: 100%;
+    }
   }
 
   ::placeholder {

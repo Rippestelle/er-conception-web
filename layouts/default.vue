@@ -46,6 +46,7 @@ main {
   --title-primary-color: #22d49e;
   --title-secondary-color: #fff;
   --element-size: 4rem;
+  --tilt-color: rgba(255, 255, 255, 0.67);
 }
 
 /* Define styles for the root window with dark - mode preference */
@@ -56,6 +57,7 @@ main {
   --text-primary-color: #e7eaec;
   --title-primary-color: #22d49e;
   --title-secondary-color: #121212;
+  --tilt-color: rgba(40, 40, 40, 0.67);
 }
 
 body {

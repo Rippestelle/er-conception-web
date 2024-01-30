@@ -1,22 +1,11 @@
-import TweenMax from 'gsap';
+import gsap from 'gsap';
 
 type Parallax = {
     container: string
-    selectors?: string
 }
 
-const computeParallaxValues = (target, movement, speed, easing) => {
-    gsap.to(target, {
-        duration: speed,
-        ease: easing,
-        x: ((mouse.x - rect.width / 2) / rect.width) * movement,
-        y: ((mouse.y - rect.height / 2) / rect.height) * movement,
-      });
-};
-
 export const moveElements = (options: Parallax) => {
-  // Get the container's bounding rectangle
-  let container = document.querySelector(".animation");
+  let container = document.querySelector(options.container);
   let rect = container.getBoundingClientRect();
 
   // Initialize mouse object with initial values

@@ -14,34 +14,39 @@
         class="projects__card"
         target="_blank"
       >
+        <img src="../public/assets/icons/34.svg" class="border top" />
         <div class="projects__card__top">
           <img src="../public/assets/img/maufit-coaching.png" />
         </div>
         <div class="projects__card__bottom">
           <p>
             Mau-Fit Coaching est une micro-entreprise de coaching à domicile. La
-            cliente m'a contacté pour une création de site WordPress,
-            Référencement local et début prometteur pour un bon positionnement
-            sur les moteurs de recherches.
+            cliente m'a contacté fin 2023 pour une création de site WordPress et
+            une formation au back-office afin de pouvoir gérer son contenu.
+            Travail sur le référencement local et la mise en valeurs des
+            programmes.
           </p>
         </div>
+        <img src="../public/assets/icons/35.svg" class="border bottom" />
       </a>
       <a
         href="https://www.quick-services-angouleme.fr/"
         class="projects__card"
         target="_blank"
       >
+        <img src="../public/assets/icons/34.svg" class="border top" />
         <div class="projects__card__top">
           <img src="../public/assets/img/quick-services.png" />
         </div>
         <div class="projects__card__bottom">
           <p>
-            Le client souhaitait refaire le site de sa Cordonnerie - Serrurerie,
-            mettre en valeurs certains produits et optimiser son référencement.
-            Amélioration du contenu et du référencement, modernisation du
-            design.
+            Refonte du site vitrine d'une Cordonnerie - Serrurerie effectuée
+            début 2022. Premier projet en freelance avant expériences en
+            entreprise. L'objectif était d'améliorer le positionnement dans les
+            moteurs de recherche et d'améliorer le contenu.
           </p>
         </div>
+        <img src="../public/assets/icons/35.svg" class="border bottom" />
       </a>
     </div>
   </section>
@@ -55,7 +60,8 @@
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1em;
+  gap: 2em;
+  margin-top: 30px;
 
   @media screen and (max-width: 840px) {
     display: flex;
@@ -76,6 +82,30 @@
   }
 
   &__card {
+    cursor: pointer;
+    position: relative;
+    height: 100%;
+
+    .border {
+      width: 100px;
+      position: absolute;
+
+      @media screen and (max-width: 300px) {
+        display: none;
+      }
+    }
+
+    .top {
+      top: -33px;
+      left: -35px;
+    }
+
+    .bottom {
+      bottom: 0px;
+      right: -20px;
+      transform: rotate(180deg);
+    }
+
     &__top {
       width: 100%;
       height: 50%;
@@ -95,7 +125,7 @@ a {
 }
 
 a:hover {
-  color: #fff !important;
+  color: var(--text-primary-color);
   background: none;
   -webkit-text-fill-color: inherit;
 }

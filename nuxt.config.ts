@@ -2,8 +2,13 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   pages: true,
-  css: ['~/assets/scss/app.scss'],
+  css: ["~/assets/scss/app.scss"],
   build: {
-    transpile: ['gsap'],
+    transpile: ["gsap"],
   },
-})
+  app: {
+    head: {
+      link: [{ rel: "icon", type: "image/svg", href: "/favicon.ico" }],
+    },
+  },
+});

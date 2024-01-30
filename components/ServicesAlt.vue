@@ -26,8 +26,8 @@
           <h3>Conseils en référencement naturel - SEO</h3>
           <p>
             Référencement naturel optimisé et conseils en stratégie de
-            référencement. Des pages bien construites pour un référencement
-            optimal.
+            référencement. Des pages bien construites, avec des mots clés
+            pertinents pour un référencement optimal.
           </p>
         </div>
       </li>
@@ -49,7 +49,8 @@
             Suivi, mises à jour et sauvegardes régulières de votre site. Même
             après la mise en ligne, je me tiens disponible pour le bon
             fonctionnement de votre site.<br />
-            Forfaits Webmastering et Newsletter possibles.
+            Actualisation du contenu graphique et/ou textuel. Forfaits
+            Webmastering et Newsletter possibles.
           </p>
         </div>
       </li>
@@ -135,11 +136,6 @@ onMounted(() => {
       height: 100%;
       border-radius: 16px;
       width: 100%;
-      background: url("../public/assets/icons/32.svg");
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position-y: 5px;
-      background-position-x: -25px;
 
       .tilt {
         padding: 2em;

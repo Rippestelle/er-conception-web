@@ -22,9 +22,9 @@
       <li class="process__item-right">
         <span class="right blue">2. Conception</span>
         <p>
-          Je crée les divers documents nécessaires à la conception de votre
-          site/application: cahier des charges, arborescence, maquettes et
-          documentation. Nous validons ensemble chaque document avant de
+          Elaboration du design et des divers documents nécessaires à la
+          conception de votre site/application (cahier des charges, arborescence
+          et documentation). Nous validons ensemble chaque document avant de
           démarrer l'intégration.
         </p>
       </li>

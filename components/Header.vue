@@ -53,7 +53,7 @@
     }
 
     .header__right {
-      height: 150px;
+      height: 200px;
       width: 100%;
     }
   }

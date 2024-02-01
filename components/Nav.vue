@@ -55,7 +55,7 @@ onMounted(() => {
         <div class="nav-container">
           <nav>
             <router-link
-              class="nav__link"
+              class="nav__link nav-link"
               to="/#about"
               @click="() => onNavigation()"
             >
@@ -63,7 +63,7 @@ onMounted(() => {
             </router-link>
 
             <router-link
-              class="nav__link"
+              class="nav__link nav-link"
               to="/#services"
               @click="() => onNavigation()"
             >
@@ -71,7 +71,7 @@ onMounted(() => {
             </router-link>
 
             <router-link
-              class="nav__link"
+              class="nav__link nav-link"
               to="/#projects"
               @click="() => onNavigation()"
             >

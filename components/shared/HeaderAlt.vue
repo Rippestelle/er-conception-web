@@ -1,3 +1,15 @@
+<script setup lang="ts">
+defineProps({
+  title: String,
+});
+
+onMounted(() => {
+  moveElements({
+    container: "#animation ",
+  });
+});
+</script>
+
 <template>
   <section class="container headeralt">
     <div class="row" id="animation">
@@ -22,7 +34,7 @@
         />
       </div>
       <div class="title">
-        <h1>Mentions légales</h1>
+        <h1>{{ title }}</h1>
       </div>
       <div class="animation">
         <img
@@ -47,14 +59,6 @@
     </div>
   </section>
 </template>
-
-<script setup lang="js">
-onMounted(() => {
-  moveElements({
-    container: '#animation ',
-  });
-});
-</script>
 
 <style lang="scss" scoped>
 .headeralt {

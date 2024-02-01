@@ -1,17 +1,22 @@
 <template>
   <div>
-    <HeaderAlt />
+    <HeaderAlt title="Mentions légales" />
     <section class="container">
       <h2>Présentation du site</h2>
       <ul>
         <li>Propriétaire: Estelle RIPPE</li>
         <li>Créateur: Estelle RIPPE</li>
-        <li>Hébergeur: https://www.netlify.com/</li>
+        <li>
+          Hébergeur:
+          <router-link to="https://www.netlify.com/"
+            >https://www.netlify.com/</router-link
+          >
+        </li>
       </ul>
 
       <h2>Description des services fournis</h2>
       <p>
-        Le site a pour objet de fournir une information concernant l'ensemble
+        Le site a pour objectif de fournir une information concernant l'ensemble
         d'une activité. Tous les informations indiquées sur le site sont données
         à titre indicatif, et sont susceptibles d'évoluer. Par ailleurs, les
         renseignements figurant sur le site ne sont pas exhaustifs. Ils sont

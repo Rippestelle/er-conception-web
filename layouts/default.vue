@@ -7,6 +7,29 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+
+const {
+  cookiesEnabled,
+  cookiesEnabledIds,
+  isConsentGiven,
+  isModalActive,
+  moduleOptions,
+} = useCookieControl();
+
+// example: react to a cookie being accepted
+watch(
+  () => cookiesEnabledIds.value,
+  (current, previous) => {
+    if (
+      !previous?.includes("google-analytics") &&
+      current?.includes("google-analytics")
+    ) {
+      // cookie with id `google-analytics` got added
+      window.location.reload(); // placeholder for your custom change handler
+    }
+  },
+  { deep: true }
+);
 </script>
 
 <template>
@@ -22,6 +45,8 @@ gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
       rgb(244, 45, 83)
     )"
   />
+  <CookieControl locale="fr" />
+
   <Nav />
   <ThemeButon />
   <main>
@@ -43,6 +68,7 @@ main {
   --background-color-secondary: #121212;
   --accent-color: #fff;
   --text-primary-color: #121212;
+  --text-secondary-color: #fff;
   --title-primary-color: #22d49e;
   --title-secondary-color: #fff;
   --element-size: 4rem;
@@ -55,6 +81,7 @@ main {
   --background-color-secondary: #fff;
   --accent-color: #cacaca;
   --text-primary-color: #e7eaec;
+  --text-secondary-color: #121212;
   --title-primary-color: #22d49e;
   --title-secondary-color: #121212;
   --tilt-color: rgba(40, 40, 40, 0.67);
@@ -63,5 +90,9 @@ main {
 body {
   background-color: var(--background-color-primary);
   color: var(--text-primary-color);
+}
+
+.cookieControl__ControlButton {
+  left: 20px !important;
 }
 </style>

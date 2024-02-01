@@ -38,6 +38,18 @@
       required
     ></textarea>
 
+    <div class="checkbox-container">
+      <input type="checkbox" id="checkbox" />
+      <label for="checkbox" class="checkbox-label"
+        >J'accepte que les données transmises via ce formulaire soient
+        conservées. Aucune exploitation commerciale ne sera faite des données
+        conservées. Pour en savoir plus, consultez la
+        <router-link to="/politique-confidentialite"
+          >politique de confidentialité</router-link
+        ></label
+      >
+    </div>
+
     <button
       type="submit"
       class="nav__link button-64"
@@ -110,5 +122,19 @@ form {
       color: var(--text-primary-color);
     }
   }
+}
+
+#checkbox {
+  width: 15px;
+  margin-bottom: 0px;
+}
+
+.checkbox-label {
+  font-size: 14px;
+}
+
+.checkbox-container {
+  width: 75%;
+  margin-bottom: 25px;
 }
 </style>

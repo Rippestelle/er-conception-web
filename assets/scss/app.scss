@@ -9,12 +9,18 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: var(--text-primary-color);
+  font-weight: 600;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
-a {
+.nav-link {
   font-family: "Manrope", sans-serif;
 }
 
@@ -117,4 +123,8 @@ a:hover:not(.button-64) {
 .link {
   text-decoration: none;
   color: var(--text-primary-color);
+}
+
+.spacer {
+  height: 100px;
 }

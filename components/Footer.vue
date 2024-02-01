@@ -39,18 +39,20 @@
  -->
           <ul class="links">
             <li class="links__item">
-              <router-link to="#services"> Services</router-link>
+              <router-link to="#services" class="nav-link">
+                Services</router-link
+              >
             </li>
             <li class="links__item">
-              <router-link to="#contact"> Contact</router-link>
-            </li>
-
-            <li class="links__item">
-              <router-link to="#projects">Projets</router-link>
+              <router-link to="#contact" class="nav-link"> Contact</router-link>
             </li>
 
             <li class="links__item">
-              <router-link to="#about">A propos</router-link>
+              <router-link to="#projects" class="nav-link">Projets</router-link>
+            </li>
+
+            <li class="links__item">
+              <router-link to="#about" class="nav-link">A propos</router-link>
             </li>
           </ul>
         </div>
@@ -58,11 +60,13 @@
       <footer>
         <div class="container">
           <span>Copyright 2023</span> |
-          <router-link to="/politique-confidentialite/">
+          <router-link to="/politique-confidentialite/" class="nav-link">
             Politique de confidentialité
           </router-link>
           |
-          <router-link to="/mentions-legales/"> Mentions légales </router-link>
+          <router-link to="/mentions-legales/" class="nav-link">
+            Mentions légales
+          </router-link>
         </div>
       </footer>
     </div>
@@ -99,6 +103,7 @@
   &__item a {
     text-decoration: none;
     color: var(--text-primary-color);
+    font-weight: 500;
   }
 }
 
@@ -116,6 +121,7 @@ footer .container {
   a {
     text-decoration: none;
     color: var(--text-primary-color);
+    font-weight: 400;
   }
 }
 </style>

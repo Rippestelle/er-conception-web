@@ -11,4 +11,52 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", type: "image/svg", href: "/favicon.svg" }],
     },
   },
+  modules: ["@dargmuesli/nuxt-cookie-control"],
+  cookieControl: {
+    locales: ["fr"],
+    localeTexts: {
+      fr: {
+        bannerTitle: "Gestion des cookies",
+        bannerDescription:
+          "Ce site utilise des cookies et vous donne le contrôle sur ce que vous souhaitez activer.",
+      },
+    },
+    barPosition: "bottom-left",
+    colors: {
+      barBackground: "var(--background-color-secondary)",
+      barButtonBackground: "#fff",
+      barButtonColor: "#000",
+      barButtonHoverBackground: "#22d49e",
+      barButtonHoverColor: "#fff",
+      barTextColor: "var(--text-secondary-color)",
+      checkboxActiveBackground: "rgb(88, 44, 145)",
+      checkboxActiveCircleBackground: "#fff",
+      checkboxDisabledBackground: "#ddd",
+      checkboxDisabledCircleBackground: "#fff",
+      checkboxInactiveBackground: "#000",
+      checkboxInactiveCircleBackground: "#fff",
+      controlButtonBackground: "#fff",
+      controlButtonHoverBackground: "#000",
+      controlButtonIconColor: "rgb(88, 44, 145)",
+      controlButtonIconHoverColor: "#22d49e",
+      focusRingColor: "#808080",
+      modalButtonBackground: "#000",
+      modalButtonHoverBackground: "#22d49e",
+    },
+    cookies: {
+      necessary: [],
+      optional: [
+        {
+          id: "google-analytics",
+          name: "Google Analytics",
+          links: {
+            "https://policies.google.com/privacy":
+              "Politique de confidentialité",
+            "https://marketingplatform.google.com/about/analytics/terms/fr/":
+              "Conditions d'utilisation",
+          },
+        },
+      ],
+    },
+  },
 });

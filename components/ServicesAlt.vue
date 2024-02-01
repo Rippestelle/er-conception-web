@@ -49,8 +49,7 @@
             Suivi, mises à jour et sauvegardes régulières de votre site. Même
             après la mise en ligne, je me tiens disponible pour le bon
             fonctionnement de votre site.<br />
-            Actualisation du contenu graphique et/ou textuel. Forfaits
-            Webmastering et Newsletter possibles.
+            Analyse de sécurité et tests.
           </p>
         </div>
       </li>
@@ -58,7 +57,8 @@
         <div class="tilt">
           <h3>Webmastering</h3>
           <p>
-            Gestion et entretien d'un site, intégration d'articles et suivi des
+            Gestion et entretien d'un site, actualisation du contenu graphique
+            et/ou textuel, newsletter. Intégration d'articles et suivi des
             statistiques. Je vous aide à obtenir une meilleure visibilité et
             gagner plus de traffic.
           </p>

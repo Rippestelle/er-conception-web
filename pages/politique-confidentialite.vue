@@ -68,7 +68,7 @@ import backHomeBtn from "~/components/shared/backHomeBtn.vue";
     <h2>Stockage des données</h2>
     <p>
       Les données du site sont stockées sur les serveurs de Netlify
-      <router-link to="https://www.netlify.com/"
+      <router-link to="https://www.netlify.com/" rel="“noreferrer”"
         >https://www.netlify.com/</router-link
       >. Ce prestataire est conforme au RGPD et s’engage à respecter la
       politique de confidentialité lié à ce règlement. Vous pouvez vérifier
@@ -78,13 +78,14 @@ import backHomeBtn from "~/components/shared/backHomeBtn.vue";
     <h2>Liste des sous-traitants</h2>
     <ul>
       <li>
-        Netlify (<router-link to="https://www.netlify.com/"
+        Netlify (<router-link to="https://www.netlify.com/" rel="“noreferrer”"
           >https://www.netlify.com</router-link
         >) : hébergement du site
       </li>
       <li>
         Google Analytics (<router-link
           to="https://analytics.google.com/analytics/web/"
+          rel="“noreferrer”"
         ></router-link
         >) : outil de mesure d’audience pour l’amélioration du site
       </li>

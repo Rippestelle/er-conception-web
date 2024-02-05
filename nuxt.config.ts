@@ -2,8 +2,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   site: {
-    url: "https://er-conception-web.fr",
     trailingSlash: true,
+  },
+  sitemap: {
+    sources: ["api/_sitemap-urls"],
   },
   pages: true,
   css: ["~/assets/scss/app.scss"],

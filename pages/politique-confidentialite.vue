@@ -1,6 +1,16 @@
 <script setup lang="ts">
 import HeaderAlt from "../components/shared/HeaderAlt.vue";
 import backHomeBtn from "~/components/shared/backHomeBtn.vue";
+
+useSeoMeta({
+  title: "Politique de confidentialité",
+  ogTitle: "Politique de confidentialité",
+  description:
+    "Politique de confidentialité du site er-conception-web.fr, création de sites web sur mesure.",
+  ogDescription:
+    "Politique de confidentialité er-conception-web.fr, création de sites web sur mesure.",
+  ogUrl: "/mentions-legales",
+});
 </script>
 
 <template>

@@ -24,6 +24,7 @@ export default defineNuxtConfig({
     },
   },
   modules: [
+    "@nuxtjs/sitemap",
     "nuxt-gtag",
     "@dargmuesli/nuxt-cookie-control",
     "nuxt-simple-sitemap",

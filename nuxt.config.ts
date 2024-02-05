@@ -5,7 +5,8 @@ export default defineNuxtConfig({
     trailingSlash: true,
   },
   sitemap: {
-    sources: ["api/_sitemap-urls"],
+    hostname: "https://er-conception-web.fr",
+    gzip: true,
   },
   pages: true,
   css: ["~/assets/scss/app.scss"],

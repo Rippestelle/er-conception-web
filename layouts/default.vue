@@ -16,19 +16,16 @@ const {
   moduleOptions,
 } = useCookieControl();
 
-// example: react to a cookie being accepted
+const { gtag, grantConsent, revokeConsent } = useGtag();
+
 watch(
   () => cookiesEnabledIds.value,
-  (current, previous) => {
-    if (
-      !previous?.includes("google-analytics") &&
-      current?.includes("google-analytics")
-    ) {
-      // cookie with id `google-analytics` got added
-      window.location.reload(); // placeholder for your custom change handler
+  (current) => {
+    if (current?.includes("google-analytics")) {
+      grantConsent();
     }
   },
-  { deep: true }
+  { deep: true, immediate: true }
 );
 </script>
 

@@ -16,6 +16,8 @@
     "@nuxtjs/eslint-module": "^4.1.0",
     "eslint": "^8.54.0",
     "nuxt": "^3.8.1",
+    "nuxt-gtag": "^1.1.2",
+    "nuxt-simple-sitemap": "^4.4.1",
     "sass": "^1.69.5",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"

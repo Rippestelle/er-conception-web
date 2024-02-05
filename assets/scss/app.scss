@@ -98,7 +98,7 @@ ul {
   padding-inline-start: 0 !important;
 }
 
-a:hover:not(.button-64) {
+a:hover:not(.button-64, .back-home-btn) {
   background: linear-gradient(
     0.25turn,
     rgb(88, 44, 145),

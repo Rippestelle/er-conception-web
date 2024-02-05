@@ -102,7 +102,7 @@
 
     .bottom {
       bottom: 0px;
-      right: -20px;
+      right: -30px;
       transform: rotate(180deg);
     }
 

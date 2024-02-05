@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  site: {
+    trailingSlash: true,
+  },
   pages: true,
   css: ["~/assets/scss/app.scss"],
   build: {
@@ -8,10 +11,27 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      titleTemplate: "%s | ER-CONCEPTION-WEB",
+      meta: [
+        { name: "robots", content: "index, follow" },
+        { name: "og:site_name", content: "ER-CONCEPTION-WEB" },
+        { name: "og:locale", content: "fr_FR" },
+        { name: "og:locale:alternate", content: "fr_FR" },
+        { name: "og:type", content: "website" },
+        { name: "og:email", content: "estelle.rippe.pro@gmail.com" },
+      ],
       link: [{ rel: "icon", type: "image/svg", href: "/favicon.svg" }],
     },
   },
-  modules: ["@dargmuesli/nuxt-cookie-control"],
+  modules: [
+    "nuxt-gtag",
+    "@dargmuesli/nuxt-cookie-control",
+    "nuxt-simple-sitemap",
+  ],
+  gtag: {
+    id: "G-VKWDTQEY37",
+    initialConsent: false,
+  },
   cookieControl: {
     locales: ["fr"],
     localeTexts: {

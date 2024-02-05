@@ -6,7 +6,7 @@
       <div class="header__left">
         <div class="header-main fade-in">
           <h1 class="text-container">
-            <span class="primary-txt">Création de site</span> internet,<br />
+            <span class="primary-txt">Création de sites</span> internet,<br />
             &amp; conseils en stratégie
             <span class="primary-txt">digitale</span>.<br />
           </h1>

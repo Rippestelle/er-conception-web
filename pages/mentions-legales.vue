@@ -42,11 +42,16 @@
         liés à l'utilisation du site
       </p>
     </section>
+
+    <div class="spacer"></div>
+    <backHomeBtn />
+    <div class="spacer"></div>
   </div>
 </template>
 
 <script setup lang="ts">
 import HeaderAlt from "../components/shared/HeaderAlt.vue";
+import backHomeBtn from "~/components/shared/backHomeBtn.vue";
 </script>
 
 <style lang="scss" scoped>

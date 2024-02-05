@@ -69,19 +69,19 @@
           class="parallax-services__one"
           data-parallax="10"
           speed="0.2"
-          src="../public/assets/icons/37.svg"
+          src="../public/assets/img/green_line.svg"
         />
         <img
           class="parallax-services__two"
           data-parallax="20"
           speed="0.5"
-          src="../public/assets/icons/40.svg"
+          src="../public/assets/img/purple_line.svg"
         />
         <img
           class="parallax-services__three"
           data-parallax="30"
           speed="0.9"
-          src="../public/assets/icons/41.svg"
+          src="../public/assets/img/blue_line.svg"
         />
       </div>
     </ul>
@@ -180,22 +180,24 @@ onMounted(() => {
     img {
       position: absolute;
       z-index: 999;
+      transform: rotate(45deg);
     }
 
     &__one {
       right: 60px;
-      width: 200px;
-      transform: rotate(90deg);
+      width: 250px;
     }
 
     &__two {
-      right: 5px;
-      width: 175px;
+      right: 50px;
+      width: 225px;
+      top: 40px;
     }
 
     &__three {
-      right: 5px;
-      width: 150px;
+      right: 40px;
+      width: 200px;
+      top: 80px;
     }
   }
 }

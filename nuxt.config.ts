@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   site: {
+    url: "https://er-conception-web.fr",
     trailingSlash: true,
   },
   pages: true,

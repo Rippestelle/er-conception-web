@@ -34,12 +34,9 @@ watch(
     :height="5"
     color="repeating-linear-gradient(
       to right,
-      rgb(255, 57, 128),
-      rgb(95, 52, 128),
-      rgb(42, 201, 255),
-      rgb(0, 201, 139),
-      rgb(187, 203, 68),
-      rgb(244, 45, 83)
+      rgb(88, 44, 145),
+      rgb(46, 128, 200) 50%,
+      rgb(34, 212, 158)
     )"
   />
   <CookieControl locale="fr" />

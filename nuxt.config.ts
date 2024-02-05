@@ -12,14 +12,14 @@ export default defineNuxtConfig({
   app: {
     head: {
       titleTemplate: "%s | ER-CONCEPTION-WEB",
-      /*       meta: [
+      meta: [
         { name: "robots", content: "index, follow" },
         { name: "og:site_name", content: "ER-CONCEPTION-WEB" },
         { name: "og:locale", content: "fr_FR" },
         { name: "og:locale:alternate", content: "fr_FR" },
         { name: "og:type", content: "website" },
         { name: "og:email", content: "estelle.rippe.pro@gmail.com" },
-      ], */
+      ],
       link: [{ rel: "icon", type: "image/svg", href: "/favicon.svg" }],
     },
   },

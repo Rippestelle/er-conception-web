@@ -24,12 +24,7 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", type: "image/svg", href: "/favicon.svg" }],
     },
   },
-  modules: [
-    "@nuxtjs/sitemap",
-    "nuxt-gtag",
-    "@dargmuesli/nuxt-cookie-control",
-    "nuxt-simple-sitemap",
-  ],
+  modules: ["@nuxtjs/sitemap", "nuxt-gtag", "@dargmuesli/nuxt-cookie-control"],
   gtag: {
     id: "G-VKWDTQEY37",
     initialConsent: false,

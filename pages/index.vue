@@ -6,7 +6,7 @@ import ServicesAlt from "../components/ServicesAlt.vue";
 import Process from "../components/Process.vue";
 import Contact from "../components/Contact.vue";
 
-useSeoMeta({
+/* useSeoMeta({
   title: "Création de sites web",
   ogTitle: "Création de sites web",
   description:
@@ -14,7 +14,7 @@ useSeoMeta({
   ogDescription:
     "Conception de sites sur-mesure, conseils en stratégie digitale et SEO.",
   ogUrl: "/",
-});
+}); */
 </script>
 
 <template>

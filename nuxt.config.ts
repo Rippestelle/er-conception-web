@@ -4,10 +4,6 @@ export default defineNuxtConfig({
   site: {
     trailingSlash: true,
   },
-  sitemap: {
-    hostname: "https://er-conception-web.fr",
-    gzip: true,
-  },
   pages: true,
   css: ["~/assets/scss/app.scss"],
   build: {
@@ -28,7 +24,6 @@ export default defineNuxtConfig({
     },
   },
   modules: [
-    "@nuxtjs/sitemap",
     "nuxt-simple-sitemap",
     "nuxt-gtag",
     "@dargmuesli/nuxt-cookie-control",
